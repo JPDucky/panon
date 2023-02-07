@@ -1,10 +1,10 @@
-## This project has been forked from rbn42/panon, which from what I can tell is all but abandoned at this point. I get annoyed with things on the KDE store that don't "just work" when downloaded, so I aim to fix that. Because this applet has the potential to be really cool.
+### This project has been forked from rbn42/panon, which from what I can tell is all but abandoned at this point. I get annoyed with things on the KDE store that don't "just work" when downloaded, so I aim to fix that, because this applet has the potential to be really cool.
 
 
 #### An audio spectrum analyzer for KDE panel.
 
 
-~~** Requirements
+~~##equirements
 |                  | Version          |
 |------------------+------------------|
 | OpenGL / GLSL    | >= 3.0 / 1.30    |
@@ -46,12 +46,12 @@ sudo eopkg install qt5-websockets  \
 ```
 
 ## Installation
-~~### Via KDE Store
-1. Open the "Add Widgets" dialog of your desktop
-2. Go to "Get New Widgets" in the bottom
-3. Click "Download New Plasma Widgets"
-4. Search for "panon"
-5. Click "Install"~~
+~~### Via KDE Store~~
+~~1. Open the "Add Widgets" dialog of your desktop~~
+~~2. Go to "Get New Widgets" in the bottom~~
+~~3. Click "Download New Plasma Widgets"~~
+~~4. Search for "panon"~~
+~~5. Click "Install"~~
 
 ### Via Command Line
 
