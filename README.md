@@ -15,7 +15,7 @@
 
 ## Dependencies
    
-### openSUSE
+### fedora/RHEL/rpm-based distros
 ```bash
 sudo dnf install qt5-qtwebsockets \
     python3-docopt python3-numpy python3-PyAudio python3-cffi python3-websockets
