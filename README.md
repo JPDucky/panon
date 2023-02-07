@@ -1,7 +1,7 @@
 ### This project has been forked from rbn42/panon, which from what I can tell is all but abandoned at this point. I get annoyed with things on the KDE store that don't "just work" when downloaded, so I aim to fix that, because this applet has the potential to be really cool.
 --- 
 
-#### An audio spectrum analyzer for KDE panel.
+# An audio spectrum analyzer for KDE panel.
 
 
 ~~##equirements
