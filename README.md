@@ -1,10 +1,10 @@
-This project has been forked from rbn42/panon, which from what I can tell is all but abandoned at this point. I get annoyed with things on the KDE store that don't "just work" when downloaded, so I aim to fix that. Because this applet has the potential to be really cool.
+## This project has been forked from rbn42/panon, which from what I can tell is all but abandoned at this point. I get annoyed with things on the KDE store that don't "just work" when downloaded, so I aim to fix that. Because this applet has the potential to be really cool.
 
 
-An audio spectrum analyzer for KDE panel.
+####An audio spectrum analyzer for KDE panel.
 
 
-** Requirements
+~~** Requirements
 |                  | Version          |
 |------------------+------------------|
 | OpenGL / GLSL    | >= 3.0 / 1.30    |
@@ -13,47 +13,47 @@ An audio spectrum analyzer for KDE panel.
 
 ~~If your KDE Framework is older than 5.63, see [[../../wiki/Troubleshooting#cannot-load-the-visual-effects-page-in-the-configuration-dialog][here]].~~
 
-** Dependencies
+## Dependencies
    
-*** openSUSE
+### openSUSE
 ```bash
 sudo dnf install qt5-qtwebsockets \
     python3-docopt python3-numpy python3-PyAudio python3-cffi python3-websockets
 ```
 
-*** Arch Linux
+### Arch Linux
 ```bash
 sudo pacman -S qt5-websockets \
     python-docopt python-numpy python-pyaudio python-cffi python-websockets 
 ```
 
-*** openSUSE
+### openSUSE
 ```bash
 sudo zypper in libQt5WebSockets5 \
     python3-docopt python3-numpy python3-PyAudio python3-cffi python3-websockets
 ```
 
-*** Ubuntu
+### Ubuntu
 ```bash
 sudo apt-get install qml-module-qt-websockets \
     python3-docopt python3-numpy python3-pyaudio python3-cffi python3-websockets
 ```
 
-*** Solus
+### Solus
 ```bash
 sudo eopkg install qt5-websockets  \
    python-docopt PyAudio numpy python-cffi python-websockets
 ```
 
-** Installation
-~~*** Via KDE Store
+## Installation
+~~### Via KDE Store
 1. Open the "Add Widgets" dialog of your desktop
 2. Go to "Get New Widgets" in the bottom
 3. Click "Download New Plasma Widgets"
 4. Search for "panon"
 5. Click "Install"~~
 
-*** Via Command Line
+### Via Command Line
 
 ```bash
 git clone https://github.com/rbn42/panon.git
@@ -75,28 +75,3 @@ kpackagetool5 -t Plasma/Applet --install plasmoid
 # To upgrade
 kpackagetool5 -t Plasma/Applet --upgrade plasmoid
 ```
-
-~~*** Via AUR
-[[https://aur.archlinux.org/packages/plasma5-applets-panon/][plasma5-applets-panon]] is available for ArchLinux. ~~
-
-~~** [[../../wiki/VisualEffects][Visual Effects]]
-   
-** [[../../wiki/Troubleshooting][Troubleshooting]]~~
-
-** Credits
-*** Main Contributors
-    From old to new,
-    |                                        | Contributor                                                    |
-    |----------------------------------------+----------------------------------------------------------------|
-    | AUR package maintained by              | [[https://aur.archlinux.org/packages/?K=mareex&SeB=m][mareex]], [[https://github.com/flying-sheep][flying-sheep (Philipp A.)]] |
-    | German translation added by            | [[https://github.com/NLDev][NullDev (Chris)]]                  |
-    | "Download New Effects" dialog added by | [[https://github.com/flying-sheep][flying-sheep (Philipp A.)]] |
-    | Dutch translation added by            | [[https://github.com/Vistaus][Vistaus (Heimen Stoffels)]]                  |
-    | "Monitor of Current Device" option  added by            | [[https://github.com/yuannan][Yuannan]]                  |
- And thanks for all the reported issues and suggestions, which I would not list here.
-*** Third Party Source 
- | Files                                                                                           | Source                                                                                           | Licensed under |
- |-------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------|
- | [[file:panon/backend/source.py][source.py]] and [[file:panon/backend/spectrum.py][spectrum.py]] | adapted from [[https://github.com/ajalt/PyVisualizer][PyVisualizer]]                             |                |
- | =hsv2rgb= in [[file:plasmoid/contents/shaders/utils.fsh][utils.fsh]]                            | copied from [[https://gist.github.com/patriciogonzalezvivo/114c1653de9e3da6e1e3][GLSL-color.md]] |                |
-
