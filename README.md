@@ -9,7 +9,7 @@
 |------------------+------------------|
 | OpenGL / GLSL    | >= 3.0 / 1.30    |
 | org.kde.kirigami | >= 2.3 (kf 5.42) |
-| org.kde.newstuff | >= 1.1 (kf 5.63) |
+| org.kde.newstuff | >= 1.1 (kf 5.63) |~~
 
 ~~If your KDE Framework is older than 5.63, see [[../../wiki/Troubleshooting#cannot-load-the-visual-effects-page-in-the-configuration-dialog][here]].~~
 
